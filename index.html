@@ -1,10 +1,63 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Quiz App</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+  </head>
+  <body>
 
-</body>
+    <div class="page">
+
+    <h1 class="title">Random Quiz Time!!!</h1>
+
+      <form id="quiz" name ="quiz">
+
+        <p>How many dragons does Daenerys Targaryen control?</p>
+        <input id="textbox" type="text" name ="question1">
+
+        <p>How many championship rings does Michael Jordan have?</p>
+        <input id="textbox" type="text" name ="question2">
+
+        <p>What is the name of Cloud Strife's main sword?</p>
+        <input id="textbox" type="text" name ="question3">
+
+        <p>What is Ron Burgundy's favorite alcoholic beverage?</p>
+        <input id="textbox" type="text" name ="question4">
+
+        <p>What symbol is the sigil for house Stark?</p>
+        <input id="textbox" type="text" name ="question5">
+
+        <p>What is Vegeta's sons name?</p>
+        <input id="textbox" type="text" name ="question6">
+
+        <p>What is Stephen Curry's jersey #?</p>
+        <input id="textbox" type="text" name ="question7">
+
+        <button id="button" type="button" onclick="check()">Check Answers</button>
+
+      </form>
+
+      <div id="after_submit">
+        <p id="message"></p>
+        <p id="number_correct"></p>
+        <img id="picture">
+      </div>
+
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
