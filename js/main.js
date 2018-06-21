@@ -8,25 +8,25 @@ function check(){
 	var question7 = document.quiz.question7.value;
 	var correct = 0;
 
-		if (question1 == "3" || "three") {
+		if (question1 == "3") {
 			correct++;
 		}
-		if (question2 == "6" || "six") {
+		if (question2 == "6") {
 			correct++;
 		}
-		if (question3 == "Buster Sword" || "buster sword") {
+		if (question3 == "buster sword") {
 			correct++;
 		}
-		if (question4 == "Scotch" || "scotch") {
+		if (question4 == "scotch") {
 			correct++;
 		}
-		if (question5 == "Wolf" || "wolf") {
+		if (question5 == "wolf") {
 			correct++;
 		}
-		if (question6 == "Trunks" || "trunks") {
+		if (question6 == "trunks") {
 			correct++;
 		}
-		if (question7 == "30" || "thirty") {
+		if (question7 == "30") {
 			correct++;
 		}
 
